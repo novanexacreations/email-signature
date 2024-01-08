@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Include Font Awesome CSS (you can replace this with your preferred icon library) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+      }
+      .signature {
+        width: 100%;
+        height: 250px; /* Adjust as needed */
+        display: flex;
+        align-items: center;
+      }
+      .mini-logo {
+        max-width: 120px; /* Adjust as needed */
+        height: auto;
+      }
+      .divider {
+        border-left: 1px solid #ccc;
+        height: 60%;
+        margin: auto 20px; /* Adjust the margin as needed */
+      }
+
+      .person-photo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .contact-info {
+        flex-grow: 1;
+        padding: 0 20px; /* Adjust as needed */
+      }
+      .icon {
+        margin-right: 5px;
+      }
+      .social-icons a,
+      .contact-icons a {
+        text-decoration: none;
+        color: #fff; /* Text color */
+        background-color: #3498db; /* Blue background color */
+        padding: 8px; /* Adjust as needed */
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 10px;
+      }
+      .social-icons i,
+      .contact-icons i {
+        font-size: 15px; /* Adjust as needed */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="signature">
+      <img
+        src="https://via.placeholder.com/120"
+        alt="Mini Logo"
+        class="mini-logo"
+      />
+      <div class="divider"></div>
+      <div class="contact-info">
+        <div style="display: flex; align-items: center">
+          <img
+            src="https://via.placeholder.com/50"
+            alt="Person Photo"
+            class="person-photo"
+          />
+          <span style="margin-left: 10px">
+            John Doe<br />
+            CEO
+          </span>
+        </div>
+        <br />
+        <div>
+          <a href="tel:+123456789" target="_blank" class="contact-icons"
+            ><i class="icon fas fa-phone"></i
+          ></a>
+          +123 456 789<br />
+          <a
+            href="mailto:john.doe@example.com"
+            target="_blank"
+            class="contact-icons"
+            ><i class="icon far fa-envelope"></i
+          ></a>
+          john.doe@example.com<br />
+          <a
+            href="https://www.example.com"
+            target="_blank"
+            class="contact-icons"
+            ><i class="icon fas fa-globe"></i
+          ></a>
+          www.example.com <br />
+          <br />
+          <span class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
